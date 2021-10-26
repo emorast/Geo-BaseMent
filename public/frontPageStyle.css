@@ -1,0 +1,27 @@
+.header{
+
+  height:35%;
+}
+
+
+.title-container{
+
+  background-color: #8cd3ff;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  border-bottom-style: groove;
+
+}
+
+h1{
+  display: inline;
+  letter-spacing: 1px;
+  font-family: Verdana;
+  text-align: center;
+
+}
+
+a{
+  padding: 20px;
+}

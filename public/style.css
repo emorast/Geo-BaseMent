@@ -1,55 +1,101 @@
-#map {
 
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: 0;
-}
 
-#top-menu {
+.header{
 
-  background-color: DimGrey;
-  opacity: 1;
-  position: fixed;
-  width: 100%;
-  height: 50px;
-}
-
-#side-browser {
-
-  background-color: DimGrey;
-  opacity: 0.8;
-  position: fixed;
-  width: 310px;
-  height: 100%;
-  top: 70px;
+  background-color: #8cd3ff;
+  border-bottom-style: groove;
+  opacity: 0.6;
+  padding: 4px;
+  margin-bottom: 5px;
 
 }
 
-ul {
-  background-color: DimGrey;
-  margin: 0;
-  padding: 0;
-
-}
-
-li {
-
+h1{
   display: inline;
-  background-color: DimGrey;
-  float: left;
-  overflow: hidden;
+  letter-spacing: 1px;
+  font-family: Verdana;
+  text-align: center;
 }
 
-li a {
 
+.nav {
+
+  overflow: hidden;
+  background-color: #8cd3ff;
+  position: sticky;
+  margin-bottom: 5px;
+}
+
+.nav a {
+  float: left;
   display: block;
-  color: white;
+  color: #f2f2f2;
+  font-family: Verdana;
   text-align: center;
-  padding: 20px 30px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
+.nav a:hover {
+  background-color: #ddd;
+}
 
-  background-color: #111;
+
+.column.browser-container{
+
+  float: left;
+  width: 25%;
+  height: 750px;
+
+}
+
+.browser.top-bar{
+  width: 100%;
+  height: 4%;
+  border-style: outset;
+
+}
+
+.browser.content{
+  width: 100%;
+  height: 96%;
+  opacity: 0.5;
+  border-left-style: inset;
+  border-right-style: inset;
+
+}
+
+.column.map-container{
+  float: right;
+  width: 74%;
+  height: 750px;
+  border-style: ridge;
+
+}
+
+#map {
+
+  align-self: right;
+  width: 100%;
+  height: 100%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #8cd3ff;
+  opacity: 0.6
 }

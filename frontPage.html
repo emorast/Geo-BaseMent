@@ -6,7 +6,7 @@
     <title> GeoBasement </title>
     <meta charset="utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
-    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "frontPageStyle.css">
 
     <script src='https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js'></script>
     <link href='https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css'rel='stylesheet'/>
@@ -23,37 +23,17 @@
 
   <body style = "margin: 0;">
 
-    <div class = "header">
-      <div class "title">
-        <img src = "icon.png" alt = "Logo" style = "width: 40px; height: 40px">
+    <div class = "header"></div>
+
+    <div class = "title-container">
+      <div class = "title">
+        <img src = "icon.png" alt = "Logo" style = "width: 50px; height: 50px">
         <h1>GeoBasement<h1>
       </div>
+      <a href = "application"> >CLICK HERE TO START<</a>
     </div>
 
-    <div class = "nav">
-      <a href = "menu"> Menu
-      <a href = "home"> Home
-      <a href = "mapsolution"> Map Solution
-      <a href = "about"> About
-      <a ref = "contact"> Contact
-
-    </div>
-
-
-      <div class = "column browser-container">
-        <div class = "browser top-bar"></div>
-        <div class = "browser content"></div>
-      </div>
-
-      <div class = "column map-container">
-        <div id = "map"></div>
-
-      </div>
-
-    <div class = "footer"> </div>
-
-    <script type="text/javascript" src = "./map.js"> </script>
-
+    <div class = "footer"></div>
 
   </body>
 </html>
